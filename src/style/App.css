@@ -1,0 +1,37 @@
+.steps{
+    border:1px dotted black;
+    width:45%;
+    margin-left: 380px;
+    margin-top:220px;
+    padding: 15px 10px;
+    background-color: rgb(218, 214, 214);
+  }
+  .numbers{
+    display: flex;
+  }
+  .numbers > div{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    height:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 245, 245);
+    margin-right: 40px;
+  }
+  
+  .numbers .active{
+    background-color:#7950f2;
+    color:#fff;
+  }
+  .buttons{
+    display: flex;
+    justify-content: space-around;
+  }
+  .nextbtn,.previousbtn{
+   width:80px;
+   height:26px;
+   background-color:#7950f2;
+   color:#fff;
+   border:none;
+  }
